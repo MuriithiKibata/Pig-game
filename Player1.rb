@@ -17,6 +17,9 @@ roll = player1.roll
 puts "Player 1 had a score of #{player1.score}"
 if  roll == 1  
     player1.score = 0
+elsif
+    player1.score == 100
+    puts "Player1 Wins"
 else
     player1.score += roll
 end
@@ -26,6 +29,9 @@ roll2 = player2.roll
 puts "Player 2 had a score of #{player2.score}"
 if  roll2 == 1  
     player2.score = 0
+elsif
+    player1.score == 100
+    puts "Player2 Wins"
 else
     player2.score += roll2
 end
